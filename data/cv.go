@@ -20,14 +20,14 @@ func init() {
 							"Create utilities to automate common maintenance tasks",
 							"Create tooling in Go to support cloud platform provisioning and operation",
 							"Automate provisioning of VMs with Ansible",
-							"On-call support for platform issues and traffic failovers",
+							"On-call support for platform issues and traffic fail-overs",
 							"Work on projects to improve site reliability",
 							"Documented and presented new solutions at Design Reviews and Production Readiness Reviews",
 						},
 					},
 					Role{
 						Name:        "Tech Lead, Microservices Platform Squad",
-						Description: `Provided technical guidance to the Microservice platform team, assigned work to the squadmembers, and ran planning meetings`,
+						Description: `Provided technical guidance to the Microservice platform team, assigned work to the squad-members, and ran planning meetings`,
 						Highlights: []string{
 							"Coached a team of around 8 developers.",
 							"Worked with local Hoboken and Remote Dublin members",
@@ -49,7 +49,7 @@ func init() {
 				},
 				Projects: []Project{
 					Project{"Cable", "Dynamic inventory caching system to allow Ansible to have current Azure inventory up to date without exceeding our API quotas. Written mostly in Go."},
-					Project{"Groot", "Failover automation technology using state machine, and desired state configuration to plan failover steps and ensure safety. Written in Go and some Angular for the front-end."},
+					Project{"Groot", "fail-over automation technology using state machine, and desired state configuration to plan fail-over steps and ensure safety. Written in Go and some Angular for the front-end."},
 					Project{"Damon", "Supervisor process for Windows executables to provide resource constraints without using Windows containers. Used Go as well as the Win32 API."},
 					Project{"Mantis", "Shared library for common functionality that was used across many utilities such as: calling the Azure API, Retry logic, Getting and refreshing HashiCorp Vault Secrets."},
 					Project{"Interstellar", "A Go library for interacting with Cosmos DB Rest API"},
@@ -247,7 +247,7 @@ func init() {
 				Name:         "Container Pilot",
 				Website:      "https://www.joyent.com/containerpilot",
 				Link:         "https://github.com/joyent/containerpilot/pulls?utf8=%E2%9C%93&q=author%3Ajustenwalker",
-				Description:  `A service for autodiscovery and configuration of applications running in containers.`,
+				Description:  `A service for auto-discovery and configuration of applications running in containers.`,
 				Contribution: MajorContributor,
 				Tags: []string{
 					"consul",
@@ -314,7 +314,7 @@ func init() {
 			SpeakingEvent{
 				Name:        "Containers & ContainerPilot at Jet.com",
 				Event:       "Container Summit - City Series: Chicago",
-				Description: `As a major contributor to Container Pilot (at the time); Joyent invited me to have a "fire-side chat" with Bryan Cantrill (CTO, Joyent) about our use of Containers and Container Pilot at Jet.com.`,
+				Description: `As a major contributor to Container Pilot (at the time); Joyent invited me to have a "fire-side chat" with Bryan Cantrill (Then CTO, Joyent) about our use of Containers and Container Pilot at Jet.com.`,
 				Date:        YMD("2016-06-14"),
 				Link:        "https://containersummit.io/city-series/2016/chicago/videos/containers-and-containerpilot-at-jet-com",
 			},
