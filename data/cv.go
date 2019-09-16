@@ -6,7 +6,7 @@ func init() {
 			Company{
 				Name:    "Jet.com, Inc.",
 				Website: "https://jet.com/",
-				Title:   "Staff Software Engineer",
+				Title:   "Principal Software Engineer",
 				Start:   YM("2015-09"),
 				End:     Present(),
 				Roles: []Role{
