@@ -13,12 +13,9 @@ This is my work history starting from most recent all the way back to college.
 
 TLDR; I started out making websites in PHP. I did a couple of jobs in Java. Eventually, I started working in Go and have not looked back.
 
-
-
-### Staff Software Engineer at [Jet.com, Inc.](https://jet.com/)
+### Principal Software Engineer at [Jet.com, Inc.](https://jet.com/)
 
 2015-09 - present
-
 
 #### Role: Software Engineer, DevOps
 Designing and maintaining the cloud services, site reliability, and monitoring stacks
@@ -29,12 +26,12 @@ Designing and maintaining the cloud services, site reliability, and monitoring s
 - Create utilities to automate common maintenance tasks
 - Create tooling in Go to support cloud platform provisioning and operation
 - Automate provisioning of VMs with Ansible
-- On-call support for platform issues and traffic failovers
+- On-call support for platform issues and traffic fail-overs
 - Work on projects to improve site reliability
 - Documented and presented new solutions at Design Reviews and Production Readiness Reviews
 
 #### Role: Tech Lead, Microservices Platform Squad
-Provided technical guidance to the Microservice platform team, assigned work to the squadmembers, and ran planning meetings
+Provided technical guidance to the Microservice platform team, assigned work to the squad-members, and ran planning meetings
 
 - Coached a team of around 8 developers.
 - Worked with local Hoboken and Remote Dublin members
@@ -52,7 +49,7 @@ Ran bi-weekly book club meetings to learn and advocate the Go language
 
 #### Projects
 - **Cable** : Dynamic inventory caching system to allow Ansible to have current Azure inventory up to date without exceeding our API quotas. Written mostly in Go.
-- **Groot** : Failover automation technology using state machine, and desired state configuration to plan failover steps and ensure safety. Written in Go and some Angular for the front-end.
+- **Groot** : fail-over automation technology using state machine, and desired state configuration to plan fail-over steps and ensure safety. Written in Go and some Angular for the front-end.
 - **Damon** : Supervisor process for Windows executables to provide resource constraints without using Windows containers. Used Go as well as the Win32 API.
 - **Mantis** : Shared library for common functionality that was used across many utilities such as: calling the Azure API, Retry logic, Getting and refreshing HashiCorp Vault Secrets.
 - **Interstellar** : A Go library for interacting with Cosmos DB Rest API
@@ -66,7 +63,6 @@ Ran bi-weekly book club meetings to learn and advocate the Go language
 ### DevOps Engineer at [Skubana, Inc.](https://www.skubana.com/)
 
 2014-12 - 2015-09
-
 
 #### Role: DevOps Engineer
 Developed and maintained initial cloud infrastructure and release pipelines to deploy code on AWS.
@@ -90,7 +86,6 @@ Developed application logic for the Backend.
 ### Software Engineer at [The Cools, Inc.](https://cools.com/)
 
 2012-01 - 2014-11
-
 
 #### Role: DevOps Engineer
 Developed and maintained initial cloud and release pipelines to deploy infrastructure and code on AWS.
@@ -119,7 +114,6 @@ Developed application logic for the Backend.
 
 2009-01 - 2012-01
 
-
 Worked in Corporate Application Systems to manage infrastructure projects and assign work to contractors
 
 - Standardized a packaging method for deploying a business intelligence application and customizations.
@@ -135,7 +129,6 @@ Worked in Corporate Application Systems to manage infrastructure projects and as
 
 2006-10 - 2009-06
 
-
 Consulted with Residence life on technology projects to enhance student quality of life
 
 - Maintained the databases and assisted in room selection process
@@ -146,49 +139,45 @@ Consulted with Residence life on technology projects to enhance student quality 
 - **Desk Manager** : Created desk management system to allow residence hall desk-staff to manage work schedule.
 - **Payroll Tracker** : Web application to assist with payroll reporting for hourly employees.
 
-
 ---
 ## Open Source Contributions
 
 Below are a selection of open source projects I've been involved in, either as a creator, or as a contributor. I've done some other minor stuff in other languages, but the majority of my work has been in Go.
 
-
-
 ### [Damon](https://github.com/jet/damon) (Creator)
 
 Supervisor program to constrain Windows executables running under Nomad's raw_exec driver.
-
 
 ### [Interstellar](https://github.com/jet/go-interstellar) (Creator)
 
 A Go client for interacting with the REST/SQL API of CosmosDB.
 
-
 ### [Mantis](https://github.com/jet/go-mantis) (Creator)
 
 A "standard library" for Jet's Golang codebase.
 
-
 ### [Container Pilot](https://www.joyent.com/containerpilot) ([Major Contribution](https://github.com/joyent/containerpilot/pulls?utf8=%E2%9C%93&q=author%3Ajustenwalker))
 
-A service for autodiscovery and configuration of applications running in containers.
-
+A service for auto-discovery and configuration of applications running in containers.
 
 ### [Azure Terraform Provider](https://www.terraform.io/docs/providers/azurerm/index.html) ([Minor Contribution](https://github.com/terraform-providers/terraform-provider-azurerm/pulls?utf8=%E2%9C%93&q=author%3Ajustenwalker))
 
 Terraform provider for Azure Resource Manager
 
-
 ### [Nomad](https://nomadproject.io/) ([Minor Contribution](https://github.com/hashicorp/nomad/pulls?utf8=%E2%9C%93&q=author%3Ajustenwalker))
 
 Nomad is an easy-to-use, flexible, and performant workload orchestrator.
-
 
 ---
 ## Speaking Events
 
 I've been speaking at a couple of events. If that interests you, check out links to my talks. I've never watched any of these, so hopefully I didn't embarrass myself; And if I did, please don't tell me.
 
+### (2019-09-09) HashiConf US 2019
+
+Talk: **[Containment Without Containers - Running Windows Microservices on Nomad](https://hashiconf.hashicorp.com/schedule/containment-without-containers-running-windows-microservices-on-nomad)**
+
+I gave a talk about the state of Windows Containers, how Jet uses the Win32 APIs via Damon to constraint windows microservices on Nomad, and gave a crash course on calling the Win32 API from Go without needing CGO.
 
 ### (2018-06-19) QCon NYC
 
@@ -197,12 +186,12 @@ Talk: **[Managing Moderate-Scale Multi-Tenant Micro-Services @Jet.com](https://q
 I presented how we manage our Microservices at scale and our journey from our legacy in-house system to using HashiCorp Nomad and the custom tooling we built.
 
 *Note:* This talk was in the "Sponsored Solutions" track. Unfortunately, the video was never published.
+
 ### (2017-05-15) HashiDays NYC
 
 Talk: **[Nomad auto-proxying with Consul-template and NGINX](https://www.youtube.com/watch?v=75vF92Vue2U)**
 
 I presented our (then current) method of using Consul-Template to dynamically write NGINX templates for our Nomad services.
-
 
 ### (2016-10-11) AnsibleFest Brooklyn
 
@@ -210,13 +199,11 @@ Talk: **[Ansible at Jet - Managing Azure Cloud Deployments](https://www.ansible.
 
 I gave a talk about how we use a combination of some custom go utilities, jenkins, and ansible to automatically provision our infrastructure when it gets created for the first time, and how we organize our repository structure to support a growing team.
 
-
 ### (2016-06-14) Container Summit - City Series: Chicago
 
 Talk: **[Containers & ContainerPilot at Jet.com](https://containersummit.io/city-series/2016/chicago/videos/containers-and-containerpilot-at-jet-com)**
 
-As a major contributor to Container Pilot (at the time); Joyent invited me to have a "fire-side chat" with Bryan Cantrill (CTO, Joyent) about our use of Containers and Container Pilot at Jet.com.
-
+As a major contributor to Container Pilot (at the time); Joyent invited me to have a "fire-side chat" with Bryan Cantrill (Then CTO, Joyent) about our use of Containers and Container Pilot at Jet.com.
 
 ### (2016-02-10) Container Summit NYC (2016)
 
@@ -224,14 +211,11 @@ Talk: **[Containers are Eating the Enterprise (Panel)](https://containersummit.i
 
 I was on a panel moderated by the venerable James Turnbull (Kickstarter) with three awesome people: Michael Hamrah (Uber), Larry Glenn (HBC), and Jeff Ashton (Canadian Tire). We talked about Docker containers in the enterprise and some of our experiences either running containers in production, or the road we're taking to get it there. This was pretty much my first time speaking in a professional capacity, so please be kind.
 
-
-
 ---
 ## Writing
 
 I've written a couple of blog posts explaining some of the research and work my team-mates and I have done.
 These may give you a better idea of what I think about.
-
 
 ### [Breaking all the rules: Using Go to call Windows API](https://medium.com/jettech/breaking-all-the-rules-using-go-to-call-windows-api-2cbfd8c79724)
 
@@ -253,12 +237,10 @@ An overview of how Windows Containers work and some of their features and drawba
 2016-10-07 - [Jet Tech Blog](https://medium.com/jettech)
 
 A short introduction to Ansible and why we at Jet chose it.
-
 ---
 ## Education
 
-This may not be as important anymore, but I paid for it so I get to put it here.
-
+This may not be as important anymore, but I paid for it and did OK; so I get to put it here.
 
 ### **B.S., Computer Engineering** from [New Jersey Institute of Technology](https://www.njit.edu/)
 2005-09 - 2009-06
