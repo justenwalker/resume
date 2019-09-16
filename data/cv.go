@@ -290,6 +290,13 @@ func init() {
 		},
 		SpeakingEvents: []SpeakingEvent{
 			SpeakingEvent{
+				Name:        "Containment Without Containers - Running Windows Microservices on Nomad",
+				Event:       "HashiConf US 2019",
+				Description: `I gave a talk about the state of Windows Containers, how Jet uses the Win32 APIs via Damon to constraint windows microservices on Nomad, and gave a crash course on calling the Win32 API from Go without needing CGO.`,
+				Date:        YMD("2019-09-09"),
+				Link:        "https://hashiconf.hashicorp.com/schedule/containment-without-containers-running-windows-microservices-on-nomad",
+			},
+			SpeakingEvent{
 				Name:        "Managing Moderate-Scale Multi-Tenant Micro-Services @Jet.com",
 				Event:       "QCon NYC",
 				Description: `I presented how we manage our Microservices at scale and our journey from our legacy in-house system to using HashiCorp Nomad and the custom tooling we built.`,
