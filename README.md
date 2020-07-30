@@ -13,9 +13,27 @@ This is my work history starting from most recent all the way back to college.
 
 TLDR; I started out making websites in PHP. I did a couple of jobs in Java. Eventually, I started working in Go and have not looked back.
 
+### Principal Software Engineer at [Walmart](https://www.walmartlabs.com)
+
+2019-10 - present
+
+Creating controllers and tooling for Kubernetes to support Walmart's Kubernetes Platform
+
+- Created many CLI utilities in Go
+- Created a process for fully-automated end-to-end testing of controllers using Kind, Ansible, and Argo Workflows
+- Investigated and benchmarked performance characteristics of controllers and databases used by the platform
+- Created a pod resource usage-collector with minute precision, which collected data to be used for charge-backs on multi-tenant clusters.
+- Contributed in small-ish ways to Open source projects that we used
+
+#### Projects
+- **mco-env** : A fully dockerized development environment to improve the onboarding experience, and standardize our tool-set.
+- **Sledge** : A Core CLI for interacting with Walmart's Kubernetes platform. Including a plugin distribution system similar to Krew.
+- **Infomox** : A mock application that mirrored Infoblox APIs to help with end-to-end testing.
+
+
 ### Principal Software Engineer at [Jet.com, Inc.](https://jet.com/)
 
-2015-09 - present
+2015-09 - 2019-10
 
 #### Role: Software Engineer, DevOps
 Designing and maintaining the cloud services, site reliability, and monitoring stacks
@@ -144,6 +162,10 @@ Consulted with Residence life on technology projects to enhance student quality 
 
 Below are a selection of open source projects I've been involved in, either as a creator, or as a contributor. I've done some other minor stuff in other languages, but the majority of my work has been in Go.
 
+### [Squiggly](https://github.com/justenwalker/squiggly) (Creator)
+
+A Forwarding proxy with support for upstream Proxy Auto Config (PAC) written in Go.
+
 ### [Damon](https://github.com/jet/damon) (Creator)
 
 Supervisor program to constrain Windows executables running under Nomad's raw_exec driver.
@@ -159,6 +181,14 @@ A "standard library" for Jet's Golang codebase.
 ### [Container Pilot](https://www.joyent.com/containerpilot) ([Major Contribution](https://github.com/joyent/containerpilot/pulls?utf8=%E2%9C%93&q=author%3Ajustenwalker))
 
 A service for auto-discovery and configuration of applications running in containers.
+
+### [Kuberlr](https://github.com/flavio/kuberlr) ([Minor Contribution](https://github.com/flavio/kuberlr/pulls?q=is%3Apr+author%3Ajustenwalker+is%3Aclosed))
+
+A CLI that wraps kubectl and auto-downloads the appropriate version for the target cluster based on the API version.
+
+### [Termenv](https://github.com/muesli/termenv) ([Minor Contribution](https://github.com/muesli/termenv/pulls?q=is%3Apr+is%3Aclosed+author%3Ajustenwalker))
+
+Go Library to support Advanced ANSI style & color support for your terminal applications
 
 ### [Azure Terraform Provider](https://www.terraform.io/docs/providers/azurerm/index.html) ([Minor Contribution](https://github.com/terraform-providers/terraform-provider-azurerm/pulls?utf8=%E2%9C%93&q=author%3Ajustenwalker))
 
@@ -222,21 +252,25 @@ These may give you a better idea of what I think about.
 2019-01-15 - [Jet Tech Blog](https://medium.com/jettech)
 
 I go into detail about how to call the Win32 API through Go and some of the traps to avoid when doing so.
+
 ### [Containing Windows Executables with Damon](https://medium.com/jettech/containing-windows-executables-with-damon-898ab4a31ea4)
 
 2018-12-11 - [Jet Tech Blog](https://medium.com/jettech)
 
 I describe an alternative method to constraining Windows executables without using Containers.
+
 ### [A short introduction to Windows Containers](https://medium.com/jettech/a-short-introduction-to-windows-containers-db5adc0db536)
 
 2018-12-11 - [Jet Tech Blog](https://medium.com/jettech)
 
 An overview of how Windows Containers work and some of their features and drawbacks.
+
 ### [Using Ansible to Manage Jet Infrastructure](https://medium.com/jettech/using-ansible-to-manage-jet-infrastructure-a3cddd4c6440)
 
 2016-10-07 - [Jet Tech Blog](https://medium.com/jettech)
 
 A short introduction to Ansible and why we at Jet chose it.
+
 ---
 ## Education
 
