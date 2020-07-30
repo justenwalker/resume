@@ -65,7 +65,8 @@ These may give you a better idea of what I think about.
 
 {{ .Date }} - {{ if .PublicationLink }}[{{ .Publication }}]({{ .PublicationLink }}){{ else }}{{ .Publication }}{{ end }}
 
-{{ .Description }}{{ end }}
+{{ .Description }}
+{{ end }}
 ---
 ## Education
 
