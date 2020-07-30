@@ -4,11 +4,46 @@ func init() {
 	MyCV = CV{
 		WorkExperience: []Company{
 			Company{
+				Name:    "Walmart",
+				Website: "https://www.walmartlabs.com",
+				Title:   "Principal Software Engineer",
+				Start:   YM("2019-10"),
+				End:     Present(),
+				Roles: []Role{
+					Role{
+						Name:        "Software Engineer, Walmart Container-Native Platform (WCNP)",
+						Description: `Creating controllers and tooling for Kubernetes to support Walmart's Kubernetes Platform`,
+						Highlights: []string{
+							"Created many CLI utilities in Go",
+							"Created a process for fully-automated end-to-end testing of controllers using Kind, Ansible, and Argo Workflows",
+							"Investigated and benchmarked performance characteristics of controllers and databases used by the platform",
+							"Created a pod resource usage-collector with minute precision, which collected data to be used for charge-backs on multi-tenant clusters.",
+							"Contributed in small-ish ways to Open source projects that we used",
+						},
+					},
+				},
+				Projects: []Project{
+					Project{"mco-env", "A fully dockerized development environment to improve the onboarding experience, and standardize our tool-set."},
+					Project{"Sledge", "A Core CLI for interacting with Walmart's Kubernetes platform. Including a plugin distribution system similar to Krew."},
+					Project{"Infomox", "A mock application that mirrored Infoblox APIs to help with end-to-end testing."},
+				},
+				Tags: []string{
+					"azure",
+					"google-cloud",
+					"ansible",
+					"git",
+					"golang",
+					"security",
+					"opensource",
+					"kubernetes",
+				},
+			},
+			Company{
 				Name:    "Jet.com, Inc.",
 				Website: "https://jet.com/",
 				Title:   "Principal Software Engineer",
 				Start:   YM("2015-09"),
-				End:     Present(),
+				End:     YM("2019-10"),
 				Roles: []Role{
 					Role{
 						Name:        "Software Engineer, DevOps",
@@ -209,6 +244,18 @@ func init() {
 		},
 		OpenSource: []OpenSource{
 			OpenSource{
+				Name:         "Squiggly",
+				Website:      "https://github.com/justenwalker/squiggly",
+				Description:  `A Forwarding proxy with support for upstream Proxy Auto Config (PAC) written in Go.`,
+				Contribution: Creator,
+				Tags: []string{
+					"proxy",
+					"pac",
+					"golang",
+					"forward-proxy",
+				},
+			},
+			OpenSource{
 				Name:         "Damon",
 				Website:      "https://github.com/jet/damon",
 				Description:  `Supervisor program to constrain Windows executables running under Nomad's raw_exec driver.`,
@@ -257,6 +304,30 @@ func init() {
 					"joyent",
 					"service-discovery",
 					"triton",
+				},
+			},
+			OpenSource{
+				Name:         "Kuberlr",
+				Website:      "https://github.com/flavio/kuberlr",
+				Link:         "https://github.com/flavio/kuberlr/pulls?q=is%3Apr+author%3Ajustenwalker+is%3Aclosed",
+				Description:  "A CLI that wraps kubectl and auto-downloads the appropriate version for the target cluster based on the API version.",
+				Contribution: MinorContributor,
+				Tags: []string{
+					"kubernetes",
+					"kubectl",
+					"golang",
+				},
+			},
+			OpenSource{
+				Name:         "Termenv",
+				Website:      "https://github.com/muesli/termenv",
+				Link:         "https://github.com/muesli/termenv/pulls?q=is%3Apr+is%3Aclosed+author%3Ajustenwalker",
+				Description:  "Go Library to support Advanced ANSI style & color support for your terminal applications",
+				Contribution: MinorContributor,
+				Tags: []string{
+					"terminal",
+					"golang",
+					"cli",
 				},
 			},
 			OpenSource{
@@ -335,38 +406,37 @@ func init() {
 		},
 		Writings: []Writing{
 			Writing{
-				Title: "Breaking all the rules: Using Go to call Windows API",
-				Link: "https://medium.com/jettech/breaking-all-the-rules-using-go-to-call-windows-api-2cbfd8c79724",
-				Date:  YMD("2019-01-15"),
-				Description: "I go into detail about how to call the Win32 API through Go and some of the traps to avoid when doing so.",
-				Publication: "Jet Tech Blog",
+				Title:           "Breaking all the rules: Using Go to call Windows API",
+				Link:            "https://medium.com/jettech/breaking-all-the-rules-using-go-to-call-windows-api-2cbfd8c79724",
+				Date:            YMD("2019-01-15"),
+				Description:     "I go into detail about how to call the Win32 API through Go and some of the traps to avoid when doing so.",
+				Publication:     "Jet Tech Blog",
 				PublicationLink: "https://medium.com/jettech",
 			},
 			Writing{
-				Title: "Containing Windows Executables with Damon",
-				Link: "https://medium.com/jettech/containing-windows-executables-with-damon-898ab4a31ea4",
-				Date:  YMD("2018-12-11"),
-				Description: "I describe an alternative method to constraining Windows executables without using Containers.",
-				Publication: "Jet Tech Blog",
+				Title:           "Containing Windows Executables with Damon",
+				Link:            "https://medium.com/jettech/containing-windows-executables-with-damon-898ab4a31ea4",
+				Date:            YMD("2018-12-11"),
+				Description:     "I describe an alternative method to constraining Windows executables without using Containers.",
+				Publication:     "Jet Tech Blog",
 				PublicationLink: "https://medium.com/jettech",
 			},
 			Writing{
-				Title: "A short introduction to Windows Containers",
-				Link: "https://medium.com/jettech/a-short-introduction-to-windows-containers-db5adc0db536",
-				Date:  YMD("2018-12-11"),
-				Description: "An overview of how Windows Containers work and some of their features and drawbacks.",
-				Publication: "Jet Tech Blog",
+				Title:           "A short introduction to Windows Containers",
+				Link:            "https://medium.com/jettech/a-short-introduction-to-windows-containers-db5adc0db536",
+				Date:            YMD("2018-12-11"),
+				Description:     "An overview of how Windows Containers work and some of their features and drawbacks.",
+				Publication:     "Jet Tech Blog",
 				PublicationLink: "https://medium.com/jettech",
 			},
 			Writing{
-				Title: "Using Ansible to Manage Jet Infrastructure",
-				Link: "https://medium.com/jettech/using-ansible-to-manage-jet-infrastructure-a3cddd4c6440",
-				Date:  YMD("2016-10-07"),
-				Description: "A short introduction to Ansible and why we at Jet chose it.",
-				Publication: "Jet Tech Blog",
+				Title:           "Using Ansible to Manage Jet Infrastructure",
+				Link:            "https://medium.com/jettech/using-ansible-to-manage-jet-infrastructure-a3cddd4c6440",
+				Date:            YMD("2016-10-07"),
+				Description:     "A short introduction to Ansible and why we at Jet chose it.",
+				Publication:     "Jet Tech Blog",
 				PublicationLink: "https://medium.com/jettech",
 			},
-
 		},
 		HigherEducation: []Institution{
 			Institution{
