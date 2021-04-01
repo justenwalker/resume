@@ -244,6 +244,20 @@ func init() {
 		},
 		OpenSource: []OpenSource{
 			OpenSource{
+				Name:         "Goodwill",
+				Website:      "https://github.com/justenwalker/goodwill",
+				Description:  `Plugin for Walmart Labs Concord that provides a way to write tasks in Go.`,
+				Contribution: Creator,
+				Tags: []string{
+					"concord",
+					"cicd",
+					"golang",
+					"java",
+					"grpc",
+					"protobuf",
+				},
+			},
+			OpenSource{
 				Name:         "Squiggly",
 				Website:      "https://github.com/justenwalker/squiggly",
 				Description:  `A Forwarding proxy with support for upstream Proxy Auto Config (PAC) written in Go.`,
@@ -360,6 +374,13 @@ func init() {
 			},
 		},
 		SpeakingEvents: []SpeakingEvent{
+			SpeakingEvent{
+				Name:        "Safety Not Guaranteed - Using unsafe to syscall Windows APIs without CGO",
+				Event:       "GopherCon 2020",
+				Description: `I gave an in-depth talk about how you can use Go to call Win32 APIs without CGO. This has examples, caveats, and techniques for memory management..`,
+				Date:        YMD("2020-11-11"),
+				Link:        "https://www.youtube.com/watch?v=EsPcKkESYPA",
+			},
 			SpeakingEvent{
 				Name:        "Containment Without Containers - Running Windows Microservices on Nomad",
 				Event:       "HashiConf US 2019",

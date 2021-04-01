@@ -162,6 +162,10 @@ Consulted with Residence life on technology projects to enhance student quality 
 
 Below are a selection of open source projects I've been involved in, either as a creator, or as a contributor. I've done some other minor stuff in other languages, but the majority of my work has been in Go.
 
+### [Goodwill](https://github.com/justenwalker/goodwill) (Creator)
+
+Plugin for Walmart Labs Concord that provides a way to write tasks in Go.
+
 ### [Squiggly](https://github.com/justenwalker/squiggly) (Creator)
 
 A Forwarding proxy with support for upstream Proxy Auto Config (PAC) written in Go.
@@ -202,6 +206,12 @@ Nomad is an easy-to-use, flexible, and performant workload orchestrator.
 ## Speaking Events
 
 I've been speaking at a couple of events. If that interests you, check out links to my talks. I've never watched any of these, so hopefully I didn't embarrass myself; And if I did, please don't tell me.
+
+### (2020-11-11) GopherCon 2020
+
+Talk: **[Safety Not Guaranteed - Using unsafe to syscall Windows APIs without CGO](https://www.youtube.com/watch?v=EsPcKkESYPA)**
+
+I gave an in-depth talk about how you can use Go to call Win32 APIs without CGO. This has examples, caveats, and techniques for memory management..
 
 ### (2019-09-09) HashiConf US 2019
 
