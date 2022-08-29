@@ -4,11 +4,40 @@ func init() {
 	MyCV = CV{
 		WorkExperience: []Company{
 			Company{
+				Name:    "Undisclosed Stealth Startup",
+				Website: "https://www.linkedin.com/company/stealth-startup-51",
+				Title:   "Sr. Staff Software Engineer",
+				Start:   YM("2021-10"),
+				End:     Present(),
+				Roles: []Role{
+					Role{
+						Name:        "Sr. Software Engineer, Core Engineering",
+						Description: `Cloud Infrastructure and Application Programmer`,
+						Highlights: []string{
+							"Created initial AWS Cloud Infrastructure and Organization Structure",
+							"Implemented secure access to VPC resources via HashiCorp Boundary and TailScale",
+							"Used Terraform to describe AWS infrastrucuture requirements as code, applied via Terraform Cloud",
+							"Created libraries and documentation to enable End-to-end observailibity via OpenTelemetry and DataDog",
+							"Automated provisioning of group membership and access via AzureAD and Terraform",
+						},
+					},
+				},
+				Tags: []string{
+					"aws",
+					"ansible",
+					"git",
+					"golang",
+					"security",
+					"opensource",
+					"ecs",
+				},
+			},
+			Company{
 				Name:    "Walmart",
 				Website: "https://www.walmartlabs.com",
 				Title:   "Principal Software Engineer",
 				Start:   YM("2019-10"),
-				End:     Present(),
+				End:     YM("2021-10"),
 				Roles: []Role{
 					Role{
 						Name:        "Software Engineer, Walmart Container-Native Platform (WCNP)",
@@ -321,6 +350,31 @@ func init() {
 				},
 			},
 			OpenSource{
+				Name:         "Helm",
+				Website:      "https://helm.sh/",
+				Description:  `The Kubernetes Package Manager`,
+				Link:         "https://github.com/helm/helm/pulls?utf8=%E2%9C%93&q=author%3Ajustenwalker",
+				Contribution: MinorContributor,
+				Tags: []string{
+					"golang",
+					"kubernetes",
+					"package-manger",
+				},
+			},
+			OpenSource{
+				Name:         "HashiCorp Boundary",
+				Website:      "https://www.boundaryproject.io/",
+				Description:  `Boundary enables identity-based access management for dynamic infrastructure. `,
+				Link:         "https://github.com/hashicorp/boundary/pulls?utf8=%E2%9C%93&q=author%3Ajustenwalker",
+				Contribution: MinorContributor,
+				Tags: []string{
+					"golang",
+					"docker",
+					"security",
+					"access",
+				},
+			},
+			OpenSource{
 				Name:         "Kuberlr",
 				Website:      "https://github.com/flavio/kuberlr",
 				Link:         "https://github.com/flavio/kuberlr/pulls?q=is%3Apr+author%3Ajustenwalker+is%3Aclosed",
@@ -361,7 +415,7 @@ func init() {
 				},
 			},
 			OpenSource{
-				Name:         "Nomad",
+				Name:         "HashiCorp Nomad",
 				Website:      "https://nomadproject.io/",
 				Description:  `Nomad is an easy-to-use, flexible, and performant workload orchestrator.`,
 				Link:         "https://github.com/hashicorp/nomad/pulls?utf8=%E2%9C%93&q=author%3Ajustenwalker",

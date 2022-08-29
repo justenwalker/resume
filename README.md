@@ -13,9 +13,23 @@ This is my work history starting from most recent all the way back to college.
 
 TLDR; I started out making websites in PHP. I did a couple of jobs in Java. Eventually, I started working in Go and have not looked back.
 
+### Sr. Staff Software Engineer at [Undisclosed Stealth Startup](https://www.linkedin.com/company/stealth-startup-51)
+
+2021-10 - present
+
+Cloud Infrastructure and Application Programmer
+
+- Created initial AWS Cloud Infrastructure and Organization Structure
+- Implemented secure access to VPC resources via HashiCorp Boundary and TailScale
+- Used Terraform to describe AWS infrastrucuture requirements as code, applied via Terraform Cloud
+- Created libraries and documentation to enable End-to-end observailibity via OpenTelemetry and DataDog
+- Automated provisioning of group membership and access via AzureAD and Terraform
+
+
+
 ### Principal Software Engineer at [Walmart](https://www.walmartlabs.com)
 
-2019-10 - present
+2019-10 - 2021-10
 
 Creating controllers and tooling for Kubernetes to support Walmart's Kubernetes Platform
 
@@ -186,6 +200,14 @@ A "standard library" for Jet's Golang codebase.
 
 A service for auto-discovery and configuration of applications running in containers.
 
+### [Helm](https://helm.sh/) ([Minor Contribution](https://github.com/helm/helm/pulls?utf8=%E2%9C%93&q=author%3Ajustenwalker))
+
+The Kubernetes Package Manager
+
+### [HashiCorp Boundary](https://www.boundaryproject.io/) ([Minor Contribution](https://github.com/hashicorp/boundary/pulls?utf8=%E2%9C%93&q=author%3Ajustenwalker))
+
+Boundary enables identity-based access management for dynamic infrastructure. 
+
 ### [Kuberlr](https://github.com/flavio/kuberlr) ([Minor Contribution](https://github.com/flavio/kuberlr/pulls?q=is%3Apr+author%3Ajustenwalker+is%3Aclosed))
 
 A CLI that wraps kubectl and auto-downloads the appropriate version for the target cluster based on the API version.
@@ -198,7 +220,7 @@ Go Library to support Advanced ANSI style & color support for your terminal appl
 
 Terraform provider for Azure Resource Manager
 
-### [Nomad](https://nomadproject.io/) ([Minor Contribution](https://github.com/hashicorp/nomad/pulls?utf8=%E2%9C%93&q=author%3Ajustenwalker))
+### [HashiCorp Nomad](https://nomadproject.io/) ([Minor Contribution](https://github.com/hashicorp/nomad/pulls?utf8=%E2%9C%93&q=author%3Ajustenwalker))
 
 Nomad is an easy-to-use, flexible, and performant workload orchestrator.
 
