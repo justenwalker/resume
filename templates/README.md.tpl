@@ -1,17 +1,17 @@
 # Justen Walker
 
-![Keybase](https://keybase.io/favicon.ico) [justenwalker](https://keybase.io/justenwalker)
+**Mastodon** <a title="Eugen Rochko &amp; other Mastodon contributors, AGPL &lt;http://www.gnu.org/licenses/agpl.html&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Mastodon_logotype_(simple)_new_hue.svg"><img width="16" alt="Mastodon logotype (simple) new hue" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Mastodon_logotype_%28simple%29_new_hue.svg/16px-Mastodon_logotype_%28simple%29_new_hue.svg.png" style="margin-bottom: -0.25em;"></a> [@jwalk@mastodon.social](https://mastodon.social/@jwalk")
 
-![Twitter](https://abs.twimg.com/favicon.ico) [@justenwalker](https://twitter.com/justenwalker)
+**matrix.org:** <a title="™/®Matrix.org, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Matrix_icon.svg"><img width="16" alt="Matrix icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Matrix_icon.svg/32px-Matrix_icon.svg.png" style="background-color: #fff; padding: 2px; border-radius: 2px; margin-bottom: -0.5em;"></a> [@justenwalker:matrix.org](https://matrix.to/#/@justenwalker:matrix.org)
+
+**Twitter** <a title="Twitter, Apache License 2.0 &lt;http://www.apache.org/licenses/LICENSE-2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Twitter-logo.svg"><img width="16" alt="Twitter-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/32px-Twitter-logo.svg.png"></a> [@justenwalker](https://twitter.com/justenwalker)
 
 He/Him
 
 ---
 ## Work Experience
 
-This is my work history starting from most recent all the way back to college. 
-
-TLDR; I started out making websites in PHP. I did a couple of jobs in Java. Eventually, I started working in Go and have not looked back.
+I'm primarily a Go developer with a heavy focus on cloud infrastructure and platform development. I have experience with Kubernetes, AWS and Azure Clouds, Terraform, Ansible.
 
 {{- range $company := .WorkExperience }}
 
