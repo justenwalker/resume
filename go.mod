@@ -1,6 +1,6 @@
 module github.com/justenwalker/resume
 
-go 1.19
+go 1.21.4
 
 require (
 	github.com/Masterminds/sprig v2.22.0+incompatible
