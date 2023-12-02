@@ -4,7 +4,7 @@
 
 **matrix.org:** <a title="™/®Matrix.org, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Matrix_icon.svg"><img width="16" alt="Matrix icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Matrix_icon.svg/32px-Matrix_icon.svg.png" style="background-color: #fff; padding: 2px; border-radius: 2px; margin-bottom: -0.5em;"></a> [@justenwalker:matrix.org](https://matrix.to/#/@justenwalker:matrix.org)
 
-**Twitter** <a title="Twitter, Apache License 2.0 &lt;http://www.apache.org/licenses/LICENSE-2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Twitter-logo.svg"><img width="16" alt="Twitter-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/32px-Twitter-logo.svg.png"></a> [@justenwalker](https://twitter.com/justenwalker)
+**BlueSky** <a href="https://en.wikipedia.org/wiki/File:Bluesky_App_Icon.png#/media/File:Bluesky_App_Icon.png"><img src="https://upload.wikimedia.org/wikipedia/en/2/2b/Bluesky_App_Icon.png" alt="Bluesky App Icon" height="16" width="16" style="padding: 2px; border-radius: 2px; margin-bottom: -0.5em;"></a> [@justenwalker.bsky.social](https://bsky.app/profile/justenwalker.bsky.social)
 
 He/Him
 
