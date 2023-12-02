@@ -4,11 +4,44 @@ func init() {
 	MyCV = CV{
 		WorkExperience: []Company{
 			Company{
+				Name:    "Stoke, Inc.",
+				Website: "https://www.stoke.com",
+				Title:   "Sr. Staff Software Engineer",
+				Start:   YM("2022-12"),
+				End:     Present(),
+				Roles: []Role{
+					Role{
+						Name:        "Sr. Software Engineer, Core Engineering",
+						Description: `Cloud Infrastructure and Application Programmer`,
+						Highlights: []string{
+							"Authored OSS contributions to the AirByte Platform to ensure platform stability.",
+							"Built and managed back-end infratructure to support the platform.",
+							"Developed backend-services to move data from customer data sources into our warehouse.",
+							"Continously improved code quality and performance.",
+							"Optimized cloud computing costs.",
+							"Implemented a new workflow engine using Temporal to create a scalable and robust data ingestion pipeline.",
+							"Worked with and managed teams across time zones.",
+						},
+					},
+				},
+				Tags: []string{
+					"aws",
+					"ansible",
+					"git",
+					"golang",
+					"security",
+					"opensource",
+					"ecs",
+					"eks",
+					"kubernetes",
+				},
+			},
+			Company{
 				Name:    "Undisclosed Stealth Startup",
 				Website: "https://www.linkedin.com/company/stealth-startup-51",
 				Title:   "Sr. Staff Software Engineer",
 				Start:   YM("2021-10"),
-				End:     Present(),
+				End:     YM("2022-11"),
 				Roles: []Role{
 					Role{
 						Name:        "Sr. Software Engineer, Core Engineering",
@@ -350,6 +383,21 @@ func init() {
 				},
 			},
 			OpenSource{
+				Name:         "AirByte Platform",
+				Website:      "https://github.com/airbytehq/airbyte-platform",
+				Link:         `https://github.com/airbytehq/airbyte-platform/pulls?q=is%3Apr+author%3Ajustenwalker`,
+				Description:  `Airbyte is an open-source data integration engine that helps you consolidate your data in your data warehouses, lakes and databases.`,
+				Contribution: MinorContributor,
+				Tags: []string{
+					"elt",
+					"workflows",
+					"java",
+					"temporal",
+					"data",
+					"kubernetes",
+				},
+			},
+			OpenSource{
 				Name:         "Helm",
 				Website:      "https://helm.sh/",
 				Description:  `The Kubernetes Package Manager`,
@@ -440,15 +488,14 @@ func init() {
 				Event:       "HashiConf US 2019",
 				Description: `I gave a talk about the state of Windows Containers, how Jet uses the Win32 APIs via Damon to constraint windows microservices on Nomad, and gave a crash course on calling the Win32 API from Go without needing CGO.`,
 				Date:        YMD("2019-09-09"),
-				Link:        "https://hashiconf.hashicorp.com/schedule/containment-without-containers-running-windows-microservices-on-nomad",
+				Link:        "https://www.youtube.com/watch?v=SJgW1bVmj2c",
 			},
 			SpeakingEvent{
 				Name:        "Managing Moderate-Scale Multi-Tenant Micro-Services @Jet.com",
 				Event:       "QCon NYC",
 				Description: `I presented how we manage our Microservices at scale and our journey from our legacy in-house system to using HashiCorp Nomad and the custom tooling we built.`,
 				Date:        YMD("2018-06-19"),
-				Link:        "https://qconnewyork.com/ny2018/presentation/managing-moderate-scale-multi-tenant-micro-services-jetcom",
-				Notes:       `This talk was in the "Sponsored Solutions" track. Unfortunately, the video was never published.`,
+				Notes:       `This talk was in the "Sponsored Solutions" track. Unfortunately, the video was never published. The 2018 Conference site is no longer available`,
 			},
 			SpeakingEvent{
 				Name:        "Nomad auto-proxying with Consul-template and NGINX",
@@ -463,20 +510,21 @@ func init() {
 				Description: `I gave a talk about how we use a combination of some custom go utilities, jenkins, and ansible to automatically provision our infrastructure when it gets created for the first time, and how we organize our repository structure to support a growing team.`,
 				Date:        YMD("2016-10-11"),
 				Link:        "https://www.ansible.com/ansible-at-jet-managing-azure-cloud-deployments",
+				Notes:       "Video no longer available.",
 			},
 			SpeakingEvent{
 				Name:        "Containers & ContainerPilot at Jet.com",
 				Event:       "Container Summit - City Series: Chicago",
 				Description: `As a major contributor to Container Pilot (at the time); Joyent invited me to have a "fire-side chat" with Bryan Cantrill (Then CTO, Joyent) about our use of Containers and Container Pilot at Jet.com.`,
 				Date:        YMD("2016-06-14"),
-				Link:        "https://containersummit.io/city-series/2016/chicago/videos/containers-and-containerpilot-at-jet-com",
+				Notes:       "Conference site and video no longer available.",
 			},
 			SpeakingEvent{
 				Name:        "Containers are Eating the Enterprise (Panel)",
 				Event:       "Container Summit NYC (2016)",
 				Description: `I was on a panel moderated by the venerable James Turnbull (Kickstarter) with three awesome people: Michael Hamrah (Uber), Larry Glenn (HBC), and Jeff Ashton (Canadian Tire). We talked about Docker containers in the enterprise and some of our experiences either running containers in production, or the road we're taking to get it there. This was pretty much my first time speaking in a professional capacity, so please be kind.`,
 				Date:        YMD("2016-02-10"),
-				Link:        "https://containersummit.io/events/nyc-2016/videos/containers-are-eating-the-enterprise",
+				Notes:       "Conference site and video no longer available.",
 			},
 		},
 		Writings: []Writing{

@@ -4,7 +4,7 @@
 
 **matrix.org:** <a title="™/®Matrix.org, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Matrix_icon.svg"><img width="16" alt="Matrix icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Matrix_icon.svg/32px-Matrix_icon.svg.png" style="background-color: #fff; padding: 2px; border-radius: 2px; margin-bottom: -0.5em;"></a> [@justenwalker:matrix.org](https://matrix.to/#/@justenwalker:matrix.org)
 
-**Twitter** <a title="Twitter, Apache License 2.0 &lt;http://www.apache.org/licenses/LICENSE-2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Twitter-logo.svg"><img width="16" alt="Twitter-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/32px-Twitter-logo.svg.png"></a> [@justenwalker](https://twitter.com/justenwalker)
+**BlueSky** <a href="https://en.wikipedia.org/wiki/File:Bluesky_App_Icon.png#/media/File:Bluesky_App_Icon.png"><img src="https://upload.wikimedia.org/wikipedia/en/2/2b/Bluesky_App_Icon.png" alt="Bluesky App Icon" height="16" width="16" style="padding: 2px; border-radius: 2px; margin-bottom: -0.5em;"></a> [@justenwalker.bsky.social](https://bsky.app/profile/justenwalker.bsky.social)
 
 He/Him
 
@@ -13,9 +13,25 @@ He/Him
 
 I'm primarily a Go developer with a heavy focus on cloud infrastructure and platform development. I have experience with Kubernetes, AWS and Azure Clouds, Terraform, Ansible.
 
+### Sr. Staff Software Engineer at [Stoke, Inc.](https://www.stoke.com)
+
+2022-12 - present
+
+Cloud Infrastructure and Application Programmer
+
+- Authored OSS contributions to the AirByte Platform to ensure platform stability.
+- Built and managed back-end infratructure to support the platform.
+- Developed backend-services to move data from customer data sources into our warehouse.
+- Continously improved code quality and performance.
+- Optimized cloud computing costs.
+- Implemented a new workflow engine using Temporal to create a scalable and robust data ingestion pipeline.
+- Worked with and managed teams across time zones.
+
+
+
 ### Sr. Staff Software Engineer at [Undisclosed Stealth Startup](https://www.linkedin.com/company/stealth-startup-51)
 
-2021-10 - present
+2021-10 - 2022-11
 
 Cloud Infrastructure and Application Programmer
 
@@ -200,6 +216,10 @@ A "standard library" for Jet's Golang codebase.
 
 A service for auto-discovery and configuration of applications running in containers.
 
+### [AirByte Platform](https://github.com/airbytehq/airbyte-platform) ([Minor Contribution](https://github.com/airbytehq/airbyte-platform/pulls?q=is%3Apr+author%3Ajustenwalker))
+
+Airbyte is an open-source data integration engine that helps you consolidate your data in your data warehouses, lakes and databases.
+
 ### [Helm](https://helm.sh/) ([Minor Contribution](https://github.com/helm/helm/pulls?utf8=%E2%9C%93&q=author%3Ajustenwalker))
 
 The Kubernetes Package Manager
@@ -230,48 +250,47 @@ Nomad is an easy-to-use, flexible, and performant workload orchestrator.
 I've been speaking at a couple of events. If that interests you, check out links to my talks. I've never watched any of these, so hopefully I didn't embarrass myself; And if I did, please don't tell me.
 
 ### (2020-11-11) GopherCon 2020
-
 Talk: **[Safety Not Guaranteed - Using unsafe to syscall Windows APIs without CGO](https://www.youtube.com/watch?v=EsPcKkESYPA)**
 
 I gave an in-depth talk about how you can use Go to call Win32 APIs without CGO. This has examples, caveats, and techniques for memory management..
 
 ### (2019-09-09) HashiConf US 2019
-
-Talk: **[Containment Without Containers - Running Windows Microservices on Nomad](https://hashiconf.hashicorp.com/schedule/containment-without-containers-running-windows-microservices-on-nomad)**
+Talk: **[Containment Without Containers - Running Windows Microservices on Nomad](https://www.youtube.com/watch?v=SJgW1bVmj2c)**
 
 I gave a talk about the state of Windows Containers, how Jet uses the Win32 APIs via Damon to constraint windows microservices on Nomad, and gave a crash course on calling the Win32 API from Go without needing CGO.
 
 ### (2018-06-19) QCon NYC
-
-Talk: **[Managing Moderate-Scale Multi-Tenant Micro-Services @Jet.com](https://qconnewyork.com/ny2018/presentation/managing-moderate-scale-multi-tenant-micro-services-jetcom)**
+Talk: **Managing Moderate-Scale Multi-Tenant Micro-Services @Jet.com**
 
 I presented how we manage our Microservices at scale and our journey from our legacy in-house system to using HashiCorp Nomad and the custom tooling we built.
 
-*Note:* This talk was in the "Sponsored Solutions" track. Unfortunately, the video was never published.
+*Note:* This talk was in the "Sponsored Solutions" track. Unfortunately, the video was never published. The 2018 Conference site is no longer available
 
 ### (2017-05-15) HashiDays NYC
-
 Talk: **[Nomad auto-proxying with Consul-template and NGINX](https://www.youtube.com/watch?v=75vF92Vue2U)**
 
 I presented our (then current) method of using Consul-Template to dynamically write NGINX templates for our Nomad services.
 
 ### (2016-10-11) AnsibleFest Brooklyn
-
 Talk: **[Ansible at Jet - Managing Azure Cloud Deployments](https://www.ansible.com/ansible-at-jet-managing-azure-cloud-deployments)**
 
 I gave a talk about how we use a combination of some custom go utilities, jenkins, and ansible to automatically provision our infrastructure when it gets created for the first time, and how we organize our repository structure to support a growing team.
 
-### (2016-06-14) Container Summit - City Series: Chicago
+*Note:* Video no longer available.
 
-Talk: **[Containers & ContainerPilot at Jet.com](https://containersummit.io/city-series/2016/chicago/videos/containers-and-containerpilot-at-jet-com)**
+### (2016-06-14) Container Summit - City Series: Chicago
+Talk: **Containers & ContainerPilot at Jet.com**
 
 As a major contributor to Container Pilot (at the time); Joyent invited me to have a "fire-side chat" with Bryan Cantrill (Then CTO, Joyent) about our use of Containers and Container Pilot at Jet.com.
 
-### (2016-02-10) Container Summit NYC (2016)
+*Note:* Conference site and video no longer available.
 
-Talk: **[Containers are Eating the Enterprise (Panel)](https://containersummit.io/events/nyc-2016/videos/containers-are-eating-the-enterprise)**
+### (2016-02-10) Container Summit NYC (2016)
+Talk: **Containers are Eating the Enterprise (Panel)**
 
 I was on a panel moderated by the venerable James Turnbull (Kickstarter) with three awesome people: Michael Hamrah (Uber), Larry Glenn (HBC), and Jeff Ashton (Canadian Tire). We talked about Docker containers in the enterprise and some of our experiences either running containers in production, or the road we're taking to get it there. This was pretty much my first time speaking in a professional capacity, so please be kind.
+
+*Note:* Conference site and video no longer available.
 
 ---
 ## Writing

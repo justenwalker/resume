@@ -48,7 +48,11 @@ I've been speaking at a couple of events. If that interests you, check out links
 {{ range .SpeakingEvents }}
 ### ({{ .Date }}) {{ .Event }}
 
+{{- if .Link }}
 Talk: **[{{ .Name }}]({{ .Link }})**
+{{- else }}
+Talk: **{{ .Name }}**
+{{- end }}
 
 {{ .Description }}
 {{- if .Notes }}
