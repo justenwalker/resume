@@ -13,34 +13,40 @@ He/Him
 
 I'm primarily a Go developer with a heavy focus on cloud infrastructure and platform development. I have experience with Kubernetes, AWS and Azure Clouds, Terraform, Ansible.
 
-### Sr. Staff Software Engineer at [Stoke, Inc.](https://www.stoke.com)
+### Sr. Staff Software Engineer at [Stoke, LLC.](https://www.stoke.com)
 
 2022-12 - present
 
 Cloud Infrastructure and Application Programmer
 
-- Authored OSS contributions to the AirByte Platform to ensure platform stability.
-- Built and managed back-end infratructure to support the platform.
-- Developed backend-services to move data from customer data sources into our warehouse.
-- Continously improved code quality and performance.
-- Optimized cloud computing costs.
-- Implemented a new workflow engine using Temporal to create a scalable and robust data ingestion pipeline.
-- Worked with and managed teams across time zones.
+- Authored over 10 OSS contributions to the AirByte Platform to ensure platform stability.
+- Built and managed back-end infrastructure to support the platform; ensuring reliable and scalable performance.
+- Continuously improved Go code quality and performance; Achieved 60% increase in code coverage, and near 100% across critical paths.
+- Optimized cloud computing costs. Reduced cloud spend by 50% using Spot instances and auto-scaling.
+- Implemented a new workflow engine using Temporal to create a scalable and robust data ingestion pipeline. Reduced cycle time by 50% when adding new data streams.
+- Worked with and managed team members across time zones.
+
+#### Projects
+- **Airbyte Platform** : Managed the backbone of our data ingestion pipeline, ensuring the system could scale automatically; responding to outages and bugs; and upgrades.
+- **AWS EKS** : Many of the back-end systems were hosted on EKS. Ensured timely upgrades of EKS and all core components including monitoring and autoscaling with Karpenter.
+- **Stoke Workflows** : A workflow engine for scheduling and monitoring customer data-stream ingestion; built using Temporal and AirByte.
 
 
-
-### Sr. Staff Software Engineer at [Undisclosed Stealth Startup](https://www.linkedin.com/company/stealth-startup-51)
+### Sr. Staff Software Engineer at [Artica, Inc.](https://www.linkedin.com/company/articaofficial/)
 
 2021-10 - 2022-11
 
 Cloud Infrastructure and Application Programmer
 
-- Created initial AWS Cloud Infrastructure and Organization Structure
-- Implemented secure access to VPC resources via HashiCorp Boundary and TailScale
-- Used Terraform to describe AWS infrastrucuture requirements as code, applied via Terraform Cloud
-- Created libraries and documentation to enable End-to-end observailibity via OpenTelemetry and DataDog
-- Automated provisioning of group membership and access via AzureAD and Terraform
+- Created initial AWS Cloud Infrastructure and Organization Structure.
+- Implemented secure access to VPC resources via HashiCorp Boundary and TailScale - securing our access to sensitive data and services.
+- Introduced Terraform to describe AWS infrastructure requirements as code (IaC), applied via Terraform Cloud - prevented manual errors from causing outages.
+- Created libraries and documentation to enable End-to-end observability via OpenTelemetry and DataDog.
+- Automated provisioning of group membership and access via AzureAD and Terraform - reducing onboarding times from days into minutes.
 
+#### Projects
+- **gsd** : A cli application that supports getting access to production systems securely by correctly configuring AWS configuration and calling boundary and aws apis to construct secure tunnels.
+- **go-observe** : A library that encodes our observability best-practices and provides a simple interface to including observability across our applications.
 
 
 ### Principal Software Engineer at [Walmart](https://www.walmartlabs.com)
