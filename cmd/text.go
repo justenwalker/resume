@@ -8,7 +8,7 @@ import (
 
 	"github.com/justenwalker/resume/data"
 
-	"github.com/Masterminds/sprig"
+	"github.com/Masterminds/sprig/v3"
 	"github.com/spf13/cobra"
 )
 
