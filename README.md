@@ -1,12 +1,9 @@
 # Justen Walker
 
-**Mastodon** <a title="Eugen Rochko &amp; other Mastodon contributors, AGPL &lt;http://www.gnu.org/licenses/agpl.html&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Mastodon_logotype_(simple)_new_hue.svg"><img width="16" alt="Mastodon logotype (simple) new hue" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Mastodon_logotype_%28simple%29_new_hue.svg/16px-Mastodon_logotype_%28simple%29_new_hue.svg.png" style="margin-bottom: -0.25em;"></a> [@jwalk@mastodon.social](https://mastodon.social/@jwalk")
-
-**matrix.org:** <a title="™/®Matrix.org, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Matrix_icon.svg"><img width="16" alt="Matrix icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Matrix_icon.svg/32px-Matrix_icon.svg.png" style="background-color: #fff; padding: 2px; border-radius: 2px; margin-bottom: -0.5em;"></a> [@justenwalker:matrix.org](https://matrix.to/#/@justenwalker:matrix.org)
-
-**BlueSky** <a href="https://en.wikipedia.org/wiki/File:Bluesky_App_Icon.png#/media/File:Bluesky_App_Icon.png"><img src="https://upload.wikimedia.org/wikipedia/en/2/2b/Bluesky_App_Icon.png" alt="Bluesky App Icon" height="16" width="16" style="padding: 2px; border-radius: 2px; margin-bottom: -0.5em;"></a> [@justenwalker.bsky.social](https://bsky.app/profile/justenwalker.bsky.social)
-
-He/Him
+- [<img src="assets/mastodon-logo.png" alt="Mastodon" style="width: 1em; height: 1em; vertical-align:middle;"></img> @jwalk@hachyderm.io](https://hachyderm.io/@jwalk)
+- [<img src="assets/matrix-icon.png" alt="matrix.org" style="width: 1em; height: 1em; vertical-align:middle;"></img> @justenwalker:matrix.org](https://matrix.to/#/@justenwalker:matrix.org)
+- [<img src="assets/bluesky-logo.png" alt="BlueSky" style="width: 1em; height: 1em; vertical-align:middle;"></img> @justenwalker.bsky.social](https://bsky.app/profile/justenwalker.bsky.social)
+- He/Him
 
 ---
 ## Work Experience
