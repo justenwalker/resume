@@ -3,6 +3,8 @@
 - [<img src="assets/mastodon-logo.png" alt="Mastodon" style="width: 1em; height: 1em; vertical-align:middle;"></img> @jwalk@hachyderm.io](https://hachyderm.io/@jwalk)
 - [<img src="assets/matrix-icon.png" alt="matrix.org" style="width: 1em; height: 1em; vertical-align:middle;"></img> @justenwalker:matrix.org](https://matrix.to/#/@justenwalker:matrix.org)
 - [<img src="assets/bluesky-logo.png" alt="BlueSky" style="width: 1em; height: 1em; vertical-align:middle;"></img> @justenwalker.bsky.social](https://bsky.app/profile/justenwalker.bsky.social)
+- [<img src="assets/linkedin-logo.png" alt="LinkedIn" style="width: 1em; height: 1em; vertical-align:middle;"></img> justenwalker](https://www.linkedin.com/in/justenwalker/)
+- [<img src="assets/document-icon.png" alt="Resume" style="width: 1em; height: 1em; vertical-align:middle;"></img> resume](assets/justen-walker-resume.pdf)
 - He/Him
 
 ---
