@@ -12,9 +12,25 @@
 
 I'm primarily a Go developer with a heavy focus on cloud infrastructure and platform development. I have experience with Kubernetes, AWS and Azure Clouds, Terraform, Ansible.
 
+### Principal Software Engineer at [Walmart](https://www.walmartlabs.com)
+
+2024-05 - present
+
+Designing and operating secrets management systems for all of Walmart Global Tech.
+
+- Senior Software architect for the Secrets Management Team
+- Designed and implemented a secret management solution at Walmart Global Tech to enable robust and scalable workload secrets management
+- Mentored engineers in Go, Kubernetes, and Temporal workflows
+- Worked with across team boundaries to get buy-in for our long-term roadmap
+
+#### Projects
+- **secrets management gateway** : A robust and scalable gateway to secret management vaults.
+- **secrets management operator** : A kubernetes operator for delivering secrets to kubernetes workloads
+
+
 ### Sr. Staff Software Engineer at [Stoke, LLC.](https://www.stoke.com)
 
-2022-12 - present
+2022-12 - 2024-04
 
 Cloud Infrastructure and Application Programmer
 

@@ -4,11 +4,44 @@ func init() {
 	MyCV = CV{
 		WorkExperience: []Company{
 			Company{
+				Name:    "Walmart",
+				Website: "https://www.walmartlabs.com",
+				Title:   "Principal Software Engineer",
+				Start:   YM("2024-05"),
+				End:     Present(),
+				Roles: []Role{
+					Role{
+						Name:        "Software Engineer, Secrets Management",
+						Description: `Designing and operating secrets management systems for all of Walmart Global Tech.`,
+						Highlights: []string{
+							"Senior Software architect for the Secrets Management Team",
+							"Designed and implemented a secret management solution at Walmart Global Tech to enable robust and scalable workload secrets management",
+							"Mentored engineers in Go, Kubernetes, and Temporal workflows",
+							"Worked with across team boundaries to get buy-in for our long-term roadmap",
+						},
+					},
+				},
+				Projects: []Project{
+					Project{"secrets management gateway", "A robust and scalable gateway to secret management vaults."},
+					Project{"secrets management operator", "A kubernetes operator for delivering secrets to kubernetes workloads"},
+				},
+				Tags: []string{
+					"azure",
+					"google-cloud",
+					"ansible",
+					"git",
+					"golang",
+					"security",
+					"opensource",
+					"kubernetes",
+				},
+			},
+			Company{
 				Name:    "Stoke, LLC.",
 				Website: "https://www.stoke.com",
 				Title:   "Sr. Staff Software Engineer",
 				Start:   YM("2022-12"),
-				End:     Present(),
+				End:     YM("2024-04"),
 				Roles: []Role{
 					Role{
 						Name:        "Sr. Software Engineer, Core Engineering",
